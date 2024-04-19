@@ -2,7 +2,7 @@ const express = require('express');
 const { MongoClient, ObjectId } = require('mongodb');
 
 const app = express();
-const PORT = 8000;
+const PORT = 5000;
 
 // Conexión a la base de datos MongoDB
 const uri = 'mongodb+srv://camilo:bLnRuVtBKoXsczqd@cluster0.ffmtk6k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
